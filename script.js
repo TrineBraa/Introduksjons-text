@@ -1,4 +1,5 @@
 function colorchange (){
-    document.getElementById("top");
-    document.getElementById("top").colorchange = blue;
+    document.getElementById("trine").style colorchange =red;
+    document.getElementById("trine").style;
+
 }

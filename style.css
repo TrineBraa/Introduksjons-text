@@ -12,11 +12,19 @@
     font-size: 60px;
 }
 
+.interesser {
+    color: blue;
+    font-size: 25px;
+}
+
 .top {
     grid-area: right;
     color: rgb(0, 0, 0);
     border: 2px solid;
     margin: 10px;
+    background-color: bisque;
+    width: 400px;
+    padding: 20px;
 }
 
 .middle {
@@ -24,12 +32,14 @@
     color: rgb(0, 0, 0);
     border: 2px solid;
     margin: 10px;
+    background-color: bisque;
 }
 
 .bottom {
     color: rgb(0, 0, 0);
     border: 2px solid;
     margin: 10px;
+    background-color: bisque;
 }
 
 button {
@@ -42,6 +52,5 @@ button {
 .container {
     display: grid;
     grid-template-columns: 50px 50px;
-    grid-template-rows: auto;
-    grid-template-areas: right left;
+    grid-template-rows: 40px;
 }
