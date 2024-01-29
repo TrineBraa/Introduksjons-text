@@ -6,7 +6,6 @@
   padding: 30px;
   width: 400 px;
   height: 80px;
-  grid-template-columns: 1;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 60px;
@@ -18,7 +17,6 @@
 }
 
 .top {
-  grid-area: right;
   color: rgb(0, 0, 0);
   border: 2px solid;
   margin: 10px;
@@ -28,7 +26,6 @@
 }
 
 .middle {
-  grid-area: left;
   color: rgb(0, 0, 0);
   border: 2px solid;
   margin: 10px;
@@ -47,18 +44,24 @@
 button {
   background-color: black;
   color: rgb(75, 192, 60);
-  height: 30px;
+  height: 40px;
+  width: 200px;
   border: 3px solid rgb(75, 192, 60);
+  margin: 10px;
+}
+
+.image{
+  border: ;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 .gather {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
 }
